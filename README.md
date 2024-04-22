@@ -19,6 +19,7 @@ services:
     buildFromGit: https://github.com/zeropsio/recipe-astro-nodejs
     ports:
       - port: 3000
+        httpSupport: true
     enableSubdomainAccess: true
     minContainers: 1
 ```
