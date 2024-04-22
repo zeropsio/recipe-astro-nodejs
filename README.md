@@ -1,4 +1,4 @@
-# Zerops x Remix - Nodejs
+# Zerops x Astro - Nodejs
 
 ![Header Image](header.png)
 
