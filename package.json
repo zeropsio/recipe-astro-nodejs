@@ -1,0 +1,21 @@
+{
+  "name": "zerops-astro-nodejs",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "node dist/server/entry.mjs",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/node": "^8.2.5",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "4.6.3",
+    "astro-expressive-code": "^0.35.2",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^5.4.5"
+  }
+}

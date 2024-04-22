@@ -1,0 +1,58 @@
+---
+import { Content as Zerops } from "./Code.md";
+---
+
+<>
+  <div
+    class="steps grid grid-cols-1 font-light gap-5 pt-4 px-36 items-center mx-auto"
+  >
+    <div class="bg-[#25292E] codetext rounded-md p-8 my-8 flex items-center">
+      <div class="max-w-lg space-y-10">
+        <div>
+          <h3 class="font-semibold text-lg">Step 1</h3>
+          <p>
+            Go to{" "}
+            <a
+              href="https://app.zerops.io/dashboard/projects"
+              target="_blank"
+              class="font-medium"
+            >
+              Zerops Dashboard
+            </a>{" "}
+            and Click on the 'Import Project' button on the sidebar. (Not a user?{
+              " "
+            }
+            <a href="https://zerops.io" target="_blank" class="font-medium">
+              Register now
+            </a>
+            )
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">Step 2</h3>
+          <p>
+            Copy the YAML code mentioned here and paste it to import this
+            example.
+          </p>
+          <p>
+            Alternatively, you can clone zerops-svelte-nodejs to your GitHub
+            profile and then replace the repository URL in the buildFromGit
+            parameter.
+          </p>
+        </div>
+      </div>
+    </div>
+    <Zerops />
+  </div>
+</>
+
+<style>
+  .steps {
+    width: 900px;
+    max-width: calc(100% - 2rem);
+  }
+  .codetext {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+</style>
