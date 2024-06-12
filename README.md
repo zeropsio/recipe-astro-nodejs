@@ -18,9 +18,9 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 ## Recipe features
 
 - Latest Astro 4.1 version for content-driven websites.
-- One of the fastest web framework with high performance in rendering components.
-- Lightweight HTML with zero unnecessary javascript overhead.
-- Node.js running with @astrojs/node on **Zerops Node.js** service.
+- One of the fastest web frameworks with high performance in rendering components.
+- Lightweight HTML with zero unnecessary JavaScript overhead.
+- Node.js running with `@astrojs/node` on the Zerops Node.js service.
 - Easy to integrate `@astrojs/react`, `@astrojs/vue`, `@astrojs/preact`, `@astroj/svelte`, `@astrojs/solid-js`, `@astrojs/mdx` and `@astrojs/lit` with Astro.
 
 Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
