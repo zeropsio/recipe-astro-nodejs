@@ -37,4 +37,4 @@ If you want to modify your own app running Astro to efficiently run on Zerops, t
 <br/>
 <br/>
 
-Need help? Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
+Need help setting your project up? Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
