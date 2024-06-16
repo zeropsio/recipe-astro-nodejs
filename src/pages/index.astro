@@ -9,8 +9,8 @@ import Steps from "../components/Steps.astro";
       <span
         class="bg-[#25292E] border border-[#434957] px-4 py-2 text-sm rounded-md"
       >
-       Developer-First Platform as a Service
-    </span>
+        Developer-First Platform as a Service
+      </span>
       <div class="mt-8">
         <h1 class="text-[#F7E9FF]">
           Deploy your Astro Site <span class="text-gradient block"
@@ -41,15 +41,49 @@ import Steps from "../components/Steps.astro";
 
     <div class="mt-16">
       <hr class="border border-[#202227] my-4 max-w-[80%] mx-auto" />
-      <h2 class="text-center pt-4">Instructions</h2>
+      <div class="flex flex-col justify-center">
+        <h2 class="text-4xl font-semibold text-center py-10">
+          Deploy to Zerops with a Single Click
+        </h2>
+        <a
+          class="badge flex justify-center hover:-translate-y-1 hover:duration-300 pb-5"
+          href="https://app.zerops.io/recipe/astro"
+          target="_blank"
+        >
+          <img
+            width="300px"
+            draggable="false"
+            src="https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/deploy-button.webp"
+            alt="deploy on zerops with one click badge"
+          />
+        </a>
+        <div class="flex justify-center pb-5">
+          <svg
+            height="100px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 4V20M12 20L8 16M12 20L16 16"
+              stroke="#e1d1e9"
+              stroke-width="1.3"
+              stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <p class="max-w-lg text-center mx-auto">
+          Deploying will import the following structure and use following
+          instructions to build and deploy
+        </p>
+      </div>
       <Steps />
     </div>
-    <p class="text-center text-sm mt-16">
-      Powered by <a
-        href="https://zerops.io"
-        target="_blank"
-        class="font-semibold">Zerops</a
-      >
+    <p class="text-center mt-16">
+      Powered by{" "}
+      <a href="https://zerops.io" target="_blank"> Zerops </a>
+      {" "}-{" "}<a class="underline" target="_blank" href="https://github.com/zeropsio/recipe-astro-nodejs/"
+        >Source</a>
     </p>
   </div>
 

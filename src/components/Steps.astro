@@ -1,45 +1,38 @@
 ---
-import { Content as Zerops } from "./Code.md";
+import { Content as Import } from "./Projectimport.md";
+import { Content as Zerops } from "./Zeropsyaml.md";
 ---
 
-<>
+<p>
   <div
-    class="steps grid grid-cols-1 font-light gap-5 pt-4 px-36 items-center mx-auto"
+    class="steps grid grid-cols-1 md:grid-cols-2 font-light gap-5 pt-4 items-center mx-auto"
   >
-    <div class="bg-[#25292E] codetext rounded-md p-8 my-8 flex items-center">
-      <div class="max-w-lg space-y-10">
-        <div>
-          <h3 class="font-semibold text-lg">Step 1</h3>
-          <video width="full" class="rounded-xl mt-3" autoplay loop>
-            <source src="import.mp4" type="video/mp4" />
-          </video>
-          <p class="mt-3">
-            <a href="https://zerops.io" target="_blank" class="font-medium"
-              >Create an account</a
-            >{" "} and locate the import button as shown in the video.
-          </p>
-        </div>
-        <div>
-          <h3 class="font-semibold text-lg">Step 2</h3>
-          <p>
-            Copy the YAML code mentioned here and paste it to import this
-            example.
-          </p>
-          <p>
-            Alternatively, you can clone zerops-svelte-nodejs to your GitHub
-            profile and then replace the repository URL in the buildFromGit
-            parameter.
-          </p>
-        </div>
-      </div>
+    <div class="max-w-xl mx-auto md:mx-0 h-full">
+      <p class="text-end mb-1 cursor-pointer">
+        <a
+          target="_blank"
+          href="https://github.com/zeropsio/recipe-astro-nodejs/blob/main/zerops-project-import.yml"
+          class="underline">source</a
+        >
+      </p>
+      <Zerops />
     </div>
-    <Zerops />
+    <div class="max-w-xl mx-auto md:mx-0 h-full">
+      <p class="text-end mb-1 cursor-pointer">
+        <a
+          target="_blank"
+          href="https://github.com/zeropsio/recipe-astro-nodejs/blob/main/zerops.yml"
+          class="underline">source</a
+        >
+      </p>
+      <Import />
+    </div>
   </div>
-</>
+</p>
 
 <style>
   .steps {
-    width: 900px;
+    width: 1000px;
     max-width: calc(100% - 2rem);
   }
   .codetext {
