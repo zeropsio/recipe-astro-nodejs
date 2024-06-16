@@ -2,7 +2,7 @@
 
 ![astro](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-astro.png)
 
-Astro is a server-first JavaScript web framework that supports every major UI framework, it's optimized for building fast, content-driven websites. [Zerops](https://zerops.io) makes deploying Astro, both server side rendered and static. This recipe showcases the SSR version, see [zeropsio/recipe-astro-static](https://github.com/zeropsio/recipe-astro-static) for the static version.
+Astro is a server-first JavaScript web framework that supports every major UI framework, it's optimized for building fast, content-driven websites. [Zerops](https://zerops.io) makes deploying and running Astro sites, both server side rendered and static, a breeze. This recipe showcases the SSR version, see [zeropsio/recipe-astro-static](https://github.com/zeropsio/recipe-astro-static) for the static version.
 
 <br/>
 
