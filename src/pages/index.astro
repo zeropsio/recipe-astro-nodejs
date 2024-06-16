@@ -19,7 +19,7 @@ import Steps from "../components/Steps.astro";
         </h1>
         <p class="mx-auto text-2xl">
           Astro SSR (Node.js) example running on Zerops.
-          <span class="block">Which you can deploy in a single step.</span>
+          <span class="block">Deploy and test yourself with a single click.</span>
         </p>
       </div>
     </div>
@@ -41,7 +41,7 @@ import Steps from "../components/Steps.astro";
               height="22px"
               viewBox="0 0 24 24"
               width="24px"
-              fill="#e2e4e8"
+              fill="inherit"
               ><g><rect fill="none" height="24" width="24"></rect></g><g
                 ><g
                   ><path
@@ -54,20 +54,15 @@ import Steps from "../components/Steps.astro";
         </a>
       </div>
 
-      <p class="max-w-lg text-center mx-auto pb-14 pt-24">
-        Deploying will import the following structure and use following
-        instructions to build and deploy
+      <p class="text-center mx-auto pb-6 pt-24">
+        Deploying will import the following structure (zerops-project-import.yml) <br/>and use following (zerops.yml)
+        instructions to build and deploy your app:
       </p>
       <Steps />
     </div>
     <p class="text-center mt-16">
       Powered by{" "}
       <a href="https://zerops.io" class="link" target="_blank"> Zerops </a>
-      {" "}-{" "}<a
-        class="underline link"
-        target="_blank"
-        href="https://github.com/zeropsio/recipe-astro-nodejs/">Source</a
-      >
     </p>
   </div>
 
@@ -80,18 +75,18 @@ import Steps from "../components/Steps.astro";
     }
 
     .deploybutton {
-      background-color: #7e7b8f;
-      padding-left: 3.25rem;
-      padding-right: 3.25rem;
+      background-color: #00b1a3;
+      padding-left: 7.25rem;
+      padding-right: 7.25rem;
       padding-top: 0.75rem;
       padding-bottom: 0.75rem;
-      font-weight: 500;
-      color: #e2e4e8;
+      font-weight: 700;
+      color: #292929;
       transition: 300ms;
     }
 
     .deploybutton:hover {
-      background-color: #6e6b80;
+      background-color: #3cbdb2;
     }
 
     .astro-a {
