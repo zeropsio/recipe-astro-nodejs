@@ -9,11 +9,4 @@ services:
     type: nodejs@20
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-astro-nodejs
-
-
-
-
-
-
-
 ```
