@@ -1,8 +1,9 @@
-# Zerops x Astro - Nodejs
+# Zerops x Astro - Node.js
 
 ![astro](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-astro.png)
 
-A Node.js Astro app example for [Zerops](https://zerops.io).
+Astro is a server-first JavaScript web framework that supports every major UI framework, it's optimized for building fast, content-driven websites. [Zerops](https://zerops.io) makes deploying Astro, both server side rendered and static. This recipe showcases the SSR version, see [zeropsio/recipe-astro-static](https://github.com/zeropsio/recipe-astro-static) for the static version.
+
 
 ## Deploy to Zerops
 
@@ -16,7 +17,13 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Recipe features
+- SSR version of **Astro 4.1** running on a load balanced **Zerops Node.js** service.
 
-- SSR version of **Astro 4.1** running on load balanced **Zerops Node.js** service.
 
-Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
+## Production vs. development
+This recipe is for production as is and will scale horizontally in case of high traffic surges. If you want to achieve the highest baseline reliability and resiliace, start with at least two containers (add `minContainers: 2` in recipe YAML in the `app` service section, or change the minimum containers in "Automatic Scaling
+configuration" section of service detail).
+
+---
+
+Need help? Join [Zerops Discord community](https://discord.com/invite/WDvCZ54).
