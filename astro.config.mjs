@@ -1,7 +1,6 @@
 import { defineConfig } from "astro/config";
 import node from "@astrojs/node";
 import tailwind from "@astrojs/tailwind";
-
 import expressiveCode from "astro-expressive-code";
 
 // https://astro.build/config
