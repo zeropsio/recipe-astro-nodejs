@@ -1,4 +1,4 @@
-# Zerops x Astro - Node.js
+# Zerops x Astro - SSR on Node.js 
 
 ![astro](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-astro.png)
 
