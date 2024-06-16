@@ -19,11 +19,13 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 ## Recipe features
 - SSR version of **Astro 4.1** running on a load balanced **Zerops Node.js** service.
 
+<br/>
 
 ## Production vs. development
 This recipe is for production as is and will scale horizontally in case of high traffic surges. If you want to achieve the highest baseline reliability and resiliace, start with at least two containers (add `minContainers: 2` in recipe YAML in the `app` service section, or change the minimum containers in "Automatic Scaling
 configuration" section of service detail).
 
+<br/>
 
 ## Changes made over the default installation
 If you want to modify your own app running Astro to efficiently run on Zerops, these are the general steps we took:
