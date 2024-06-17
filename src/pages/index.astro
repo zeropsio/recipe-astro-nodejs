@@ -17,7 +17,7 @@ import Steps from "../components/Steps.astro";
       <div class="mt-8">
         <h1 class="text-[#F7E9FF]">
           Deploy your Astro Site <span class="text-gradient block"
-            >with Zerops</span
+            >with <a class="hover:text-[#F7E9FF]" target="_blank" href="https://zerops.io">Zerops</a></span
           >
         </h1>
         <p class="mx-auto text-2xl">
@@ -123,6 +123,9 @@ import Steps from "../components/Steps.astro";
       -webkit-text-fill-color: transparent;
       background-size: 400%;
       background-position: 0%;
+    }
+    .text-gradient:hover {
+      background-image: linear-gradient(to right, #f7e9ff 0%, #7e7b8f 30%);
     }
     .link-card-grid {
       display: grid;
