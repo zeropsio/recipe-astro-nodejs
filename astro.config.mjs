@@ -14,5 +14,5 @@ export default defineConfig({
   adapter: node({
     mode: "standalone"
   }),
-  integrations: [tailwind(), expressiveCode()],
+  integrations: [tailwind(), expressiveCode({themes:'github-dark'})],
 });
