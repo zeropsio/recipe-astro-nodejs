@@ -18,7 +18,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Recipe features
-- SSR version of **Astro 4.1** running on a load balanced **Zerops Node.js** service.
+SSR version of **Astro 4.1** running on a load balanced **Zerops Node.js** service.
 
 <br/>
 
