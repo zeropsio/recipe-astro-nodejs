@@ -1,7 +1,7 @@
 # Zerops x Astro - SSR on Node.js 
 Astro is a server-first JavaScript web framework that supports every major UI framework, it's optimized for building fast, content-driven websites. [Zerops](https://zerops.io) makes deploying and running Astro sites, both server side rendered and static, a breeze. This recipe showcases the SSR version, see [zeropsio/recipe-astro-static](https://github.com/zeropsio/recipe-astro-static) for the static version.
 
-![astro](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-astro.png)
+![astro](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-astro.svg)
 
 <br/>
 
